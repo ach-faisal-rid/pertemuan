@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c> 
+    RewriteEngine on 
+    RewriteRule ^home$ index.php?page=beranda.php [L] 
+    Options All -Indexes 
+</IfModule>

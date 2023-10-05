@@ -39,9 +39,13 @@
                     </span>
                 </button>
                 <button class="topbar-toggler more">
-                    <i class="icon-options-vertical"></i></button> <div class="nav-toggle"> <button class="btn btn-toggle sidenav-overlay-toggler"><i class="icon-menu"></i>
+                    <i class="icon-options-vertical"></i>
                 </button>
-            </div>
+                <div class="nav-toggle">
+                    <button class="btn btn-toggle sidenav-overlay-toggler">
+                        <i class="icon-menu"></i>
+                    </button>
+                </div>
             </div>
             <nav class="navbar navbar-header navbar-expand-lg" data-background-color="blue2">
                 <div class="container-fluid"> <ul class="navbar-nav topbar-nav ml-md-auto align-items-center"> <li class="nav-item dropdown hidden-caret"> <a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-envelope"></i> </a> </li> <li class="nav-item dropdown hidden-caret">
@@ -52,22 +56,28 @@
             <div class="sidebar-wrapper scrollbar scrollbar-inner"> 
                 <div class="sidebar-content">
                     <ul class="nav nav-primary">
-                        <li class="nav-item active">
+                        <li class="nav-item" id="mnhome">
                             <a href="home">
                                 <i class="icon-layers"></i>
                                 <p>Beranda</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#">
+                        <li class="nav-item" id="mnpasaran">
+                            <a href="pasaran">
                                 <i class="icon-note"></i>
                                 <p>Form</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#">
+                        <li class="nav-item" id="mntentang">
+                            <a href="tentang">
                                 <i class="icon-tag"></i>
                                 <p>Tentang</p>
+                            </a>
+                        </li>
+                        <li class="nav-item" id="mnpk1">
+                            <a href="pk1">
+                                <i class="icon-magic-wand"></i>
+                                <p>praktikum 1</p>
                             </a>
                         </li>
                     </ul>

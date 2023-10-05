@@ -4,5 +4,6 @@
     RewriteRule ^pasaran$ index.php?page=form.php [L] 
     RewriteRule ^tentang$ index.php?page=about.php [L] 
     RewriteRule ^pk1$ index.php?page=praktikum1.php [L] 
+    RewriteRule ^arron$ index.php?page=data.php [L] 
     Options All -Indexes 
 </IfModule>

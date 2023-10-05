@@ -1,0 +1,17 @@
+hasil += "<img src=\"" + cover + "\" data-judul=\"" + judul + "\" data-pemain=\"" + pemain + "\" data-tahun=\"" + tahun + "\" data-rating=\"" + rating + "\" data-sinopsis=\"" + sinopsis + "\" class=\"col-md-2\" style=\"margin-bottom: 15px;\" onclick=\"tampildetail(this)\">";
+hasil +=
+'<img src="' +
+Cover +
+'" data-judul="' +
+Judul +
+'" data-durasi="' +
+durasI +
+'" class="col-md-2" style="margin-bottom: 15px;" onclick="tampildetail(this)">';
+hasil +=
+"<img src='" +
+cv +
+"' data-judul='" +
+jd +
+"' data-durasi='" +
+dI +
+"' class='col-md-2' style='margin-bottom: 15px;'>"; 

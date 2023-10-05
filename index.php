@@ -80,6 +80,12 @@
                                 <p>praktikum 1</p>
                             </a>
                         </li>
+                            <li class="nav-item" id="mnarron">
+                            <a href="arron">
+                                <i class="icon-book-open"></i>
+                                <p>Array Online</p>
+                            </a> 
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -95,5 +101,21 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <nav class="pull-left">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Help
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright ml-auto">
+                2023, made with <i class="fa fa-heart heart text-danger"></i> by <a href="">ThemeKita</a>
+            </div>				
+        </div>
+    </footer>
 </body>
 </html>

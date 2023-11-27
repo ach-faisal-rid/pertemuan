@@ -37,3 +37,4 @@
         </div>
     </div>
 </div>
+<script> $("#mnhome").addClass("active"); </script>
